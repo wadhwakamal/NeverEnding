@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EAB7C62BDB66BD558047BDF /* Pods_NeverEndingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF47C78FB55A867A0418D49F /* Pods_NeverEndingTests.framework */; };
-		7453B531AEA71293697FC0BD /* Pods_NeverEndingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2DF2B91478F0675D61F8A4 /* Pods_NeverEndingUITests.framework */; };
+		755B74881ADA2386D7DCCA64 /* libPods-NeverEndingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A12670895A23F88B9703E836 /* libPods-NeverEndingTests.a */; };
 		7BA17C5A20F2BCC4002F893F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA17C5920F2BCC4002F893F /* AppDelegate.swift */; };
 		7BA17C5C20F2BCC4002F893F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA17C5B20F2BCC4002F893F /* ViewController.swift */; };
 		7BA17C5F20F2BCC4002F893F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA17C5D20F2BCC4002F893F /* Main.storyboard */; };
 		7BA17C6420F2BCC6002F893F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA17C6220F2BCC6002F893F /* LaunchScreen.storyboard */; };
-		7BA17C7A20F2BCC7002F893F /* NeverEndingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA17C7920F2BCC7002F893F /* NeverEndingUITests.swift */; };
 		7BBDD75720F2D4B500B20C67 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBDD75620F2D4B500B20C67 /* Utility.swift */; };
 		7BBDD75C20F2D51100B20C67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBDD75B20F2D51100B20C67 /* Constants.swift */; };
 		7BBDD75E20F2D59300B20C67 /* AlamofireConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBDD75D20F2D59300B20C67 /* AlamofireConfig.swift */; };
@@ -43,21 +41,12 @@
 			remoteGlobalIDString = 7BA17C5520F2BCC4002F893F;
 			remoteInfo = NeverEnding;
 		};
-		7BA17C7620F2BCC7002F893F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BA17C4E20F2BCC4002F893F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BA17C5520F2BCC4002F893F;
-			remoteInfo = NeverEnding;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2B4CD4C49CDEF85D586E3D58 /* Pods-NeverEnding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverEnding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeverEnding/Pods-NeverEnding.debug.xcconfig"; sourceTree = "<group>"; };
 		2E48E825AC04D0C18119EC5C /* Pods-NeverEndingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverEndingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeverEndingTests/Pods-NeverEndingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3FE6BA0D1DFB4F296B47A9D0 /* Pods-NeverEndingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverEndingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeverEndingUITests/Pods-NeverEndingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		58468EBED14C85C8081065FA /* Pods_NeverEnding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverEnding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67BDD521F7B5F376F2D13965 /* Pods-NeverEndingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverEndingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeverEndingUITests/Pods-NeverEndingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA17C5620F2BCC4002F893F /* NeverEnding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverEnding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA17C5920F2BCC4002F893F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BA17C5B20F2BCC4002F893F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,9 +55,6 @@
 		7BA17C6520F2BCC6002F893F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BA17C6A20F2BCC6002F893F /* NeverEndingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverEndingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA17C7020F2BCC6002F893F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BA17C7520F2BCC7002F893F /* NeverEndingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverEndingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BA17C7920F2BCC7002F893F /* NeverEndingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverEndingUITests.swift; sourceTree = "<group>"; };
-		7BA17C7B20F2BCC7002F893F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BBDD75620F2D4B500B20C67 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		7BBDD75B20F2D51100B20C67 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7BBDD75D20F2D59300B20C67 /* AlamofireConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireConfig.swift; sourceTree = "<group>"; };
@@ -88,7 +74,7 @@
 		7BBDD78620F39A1900B20C67 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 		7BBDD78820F39C3000B20C67 /* UtilityUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityUnitTests.swift; sourceTree = "<group>"; };
 		9E53AD7A582DF4DA303F410E /* Pods-NeverEndingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverEndingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeverEndingTests/Pods-NeverEndingTests.release.xcconfig"; sourceTree = "<group>"; };
-		AF47C78FB55A867A0418D49F /* Pods_NeverEndingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverEndingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12670895A23F88B9703E836 /* libPods-NeverEndingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeverEndingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B2399EB54E84ED4864B773 /* Pods-NeverEnding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverEnding.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeverEnding/Pods-NeverEnding.release.xcconfig"; sourceTree = "<group>"; };
 		CA2DF2B91478F0675D61F8A4 /* Pods_NeverEndingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverEndingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,15 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAB7C62BDB66BD558047BDF /* Pods_NeverEndingTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BA17C7220F2BCC7002F893F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7453B531AEA71293697FC0BD /* Pods_NeverEndingUITests.framework in Frameworks */,
+				755B74881ADA2386D7DCCA64 /* libPods-NeverEndingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +106,6 @@
 				C6B2399EB54E84ED4864B773 /* Pods-NeverEnding.release.xcconfig */,
 				2E48E825AC04D0C18119EC5C /* Pods-NeverEndingTests.debug.xcconfig */,
 				9E53AD7A582DF4DA303F410E /* Pods-NeverEndingTests.release.xcconfig */,
-				67BDD521F7B5F376F2D13965 /* Pods-NeverEndingUITests.debug.xcconfig */,
-				3FE6BA0D1DFB4F296B47A9D0 /* Pods-NeverEndingUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -139,7 +115,6 @@
 			children = (
 				7BA17C5820F2BCC4002F893F /* NeverEnding */,
 				7BA17C6D20F2BCC6002F893F /* NeverEndingTests */,
-				7BA17C7820F2BCC7002F893F /* NeverEndingUITests */,
 				7BA17C5720F2BCC4002F893F /* Products */,
 				6F43D251E76914448BDFF2AA /* Pods */,
 				BC6A2BA8B6BD16EE0BC4ECFF /* Frameworks */,
@@ -151,7 +126,6 @@
 			children = (
 				7BA17C5620F2BCC4002F893F /* NeverEnding.app */,
 				7BA17C6A20F2BCC6002F893F /* NeverEndingTests.xctest */,
-				7BA17C7520F2BCC7002F893F /* NeverEndingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,15 +158,6 @@
 				7BA17C7020F2BCC6002F893F /* Info.plist */,
 			);
 			path = NeverEndingTests;
-			sourceTree = "<group>";
-		};
-		7BA17C7820F2BCC7002F893F /* NeverEndingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7BA17C7920F2BCC7002F893F /* NeverEndingUITests.swift */,
-				7BA17C7B20F2BCC7002F893F /* Info.plist */,
-			);
-			path = NeverEndingUITests;
 			sourceTree = "<group>";
 		};
 		7BBDD75920F2D4D300B20C67 /* Common */ = {
@@ -327,8 +292,8 @@
 			isa = PBXGroup;
 			children = (
 				58468EBED14C85C8081065FA /* Pods_NeverEnding.framework */,
-				AF47C78FB55A867A0418D49F /* Pods_NeverEndingTests.framework */,
 				CA2DF2B91478F0675D61F8A4 /* Pods_NeverEndingUITests.framework */,
+				A12670895A23F88B9703E836 /* libPods-NeverEndingTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -363,7 +328,7 @@
 				7BA17C6620F2BCC6002F893F /* Sources */,
 				7BA17C6720F2BCC6002F893F /* Frameworks */,
 				7BA17C6820F2BCC6002F893F /* Resources */,
-				D83A8C29E96687C0B2819F29 /* [CP] Embed Pods Frameworks */,
+				35CDAC82D9567527E107B000 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,25 +339,6 @@
 			productName = NeverEndingTests;
 			productReference = 7BA17C6A20F2BCC6002F893F /* NeverEndingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7BA17C7420F2BCC7002F893F /* NeverEndingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BA17C8420F2BCC7002F893F /* Build configuration list for PBXNativeTarget "NeverEndingUITests" */;
-			buildPhases = (
-				7B0BBB5F172B3D54DBF5CB93 /* [CP] Check Pods Manifest.lock */,
-				7BA17C7120F2BCC7002F893F /* Sources */,
-				7BA17C7220F2BCC7002F893F /* Frameworks */,
-				7BA17C7320F2BCC7002F893F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BA17C7720F2BCC7002F893F /* PBXTargetDependency */,
-			);
-			name = NeverEndingUITests;
-			productName = NeverEndingUITests;
-			productReference = 7BA17C7520F2BCC7002F893F /* NeverEndingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -408,10 +354,6 @@
 						CreatedOnToolsVersion = 9.4;
 					};
 					7BA17C6920F2BCC6002F893F = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = 7BA17C5520F2BCC4002F893F;
-					};
-					7BA17C7420F2BCC7002F893F = {
 						CreatedOnToolsVersion = 9.4;
 						TestTargetID = 7BA17C5520F2BCC4002F893F;
 					};
@@ -432,7 +374,6 @@
 			targets = (
 				7BA17C5520F2BCC4002F893F /* NeverEnding */,
 				7BA17C6920F2BCC6002F893F /* NeverEndingTests */,
-				7BA17C7420F2BCC7002F893F /* NeverEndingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -458,16 +399,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BA17C7320F2BCC7002F893F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		35CDAC82D9567527E107B000 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NeverEndingTests/Pods-NeverEndingTests-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeverEndingTests/Pods-NeverEndingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		36A5ED12E10F3394CCECD1DE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -504,24 +456,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7B0BBB5F172B3D54DBF5CB93 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NeverEndingUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D433BD2EB3C3F2E6A83099F9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -529,11 +463,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NeverEnding/Pods-NeverEnding-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/GSImageViewerController/GSImageViewerController.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GSImageViewerController-framework/GSImageViewerController.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-framework/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD-framework/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-framework/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -546,32 +480,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeverEnding/Pods-NeverEnding-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D83A8C29E96687C0B2819F29 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NeverEndingTests/Pods-NeverEndingTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/GSImageViewerController/GSImageViewerController.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSImageViewerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeverEndingTests/Pods-NeverEndingTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -607,14 +515,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BA17C7120F2BCC7002F893F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BA17C7A20F2BCC7002F893F /* NeverEndingUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -622,11 +522,6 @@
 			isa = PBXTargetDependency;
 			target = 7BA17C5520F2BCC4002F893F /* NeverEnding */;
 			targetProxy = 7BA17C6B20F2BCC6002F893F /* PBXContainerItemProxy */;
-		};
-		7BA17C7720F2BCC7002F893F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BA17C5520F2BCC4002F893F /* NeverEnding */;
-			targetProxy = 7BA17C7620F2BCC7002F893F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -772,6 +667,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F9L26E329;
 				INFOPLIST_FILE = NeverEnding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -791,6 +687,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F9L26E329;
 				INFOPLIST_FILE = NeverEnding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -846,48 +743,6 @@
 			};
 			name = Release;
 		};
-		7BA17C8520F2BCC7002F893F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67BDD521F7B5F376F2D13965 /* Pods-NeverEndingUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F9L26E329;
-				INFOPLIST_FILE = NeverEndingUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.kamalwadhwa.NeverEndingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NeverEnding;
-			};
-			name = Debug;
-		};
-		7BA17C8620F2BCC7002F893F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FE6BA0D1DFB4F296B47A9D0 /* Pods-NeverEndingUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F9L26E329;
-				INFOPLIST_FILE = NeverEndingUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.kamalwadhwa.NeverEndingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NeverEnding;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -914,15 +769,6 @@
 			buildConfigurations = (
 				7BA17C8220F2BCC7002F893F /* Debug */,
 				7BA17C8320F2BCC7002F893F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BA17C8420F2BCC7002F893F /* Build configuration list for PBXNativeTarget "NeverEndingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BA17C8520F2BCC7002F893F /* Debug */,
-				7BA17C8620F2BCC7002F893F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

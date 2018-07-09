@@ -20,12 +20,14 @@
                         <subviews>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gy-Sq-433">
                                 <rect key="frame" x="20" y="36" width="335" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration" identifier="NameLabel"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tL3-4n-pwk">
                                 <rect key="frame" x="20" y="44" width="335" height="20.5"/>
+                                <accessibility key="accessibilityConfiguration" identifier="TimeLabel"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -49,6 +51,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="H7A-gD-ukU">
                                                     <rect key="frame" x="0.0" y="0.0" width="115" height="120"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="PixlrImageView"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -77,6 +80,7 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Full Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="114-nA-SIW">
                                         <rect key="frame" x="20" y="319" width="335" height="29"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="NameTxtFld"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="24"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -89,8 +93,11 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30D-A7-sv2">
-                                        <rect key="frame" x="162.5" y="367" width="49" height="30"/>
-                                        <state key="normal" title="Submit"/>
+                                        <rect key="frame" x="170" y="367" width="34" height="30"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="StartBtn">
+                                            <accessibilityTraits key="traits" button="YES"/>
+                                        </accessibility>
+                                        <state key="normal" title="Start"/>
                                         <connections>
                                             <action selector="didTapSubmitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zkj-2Q-oXD"/>
                                         </connections>
