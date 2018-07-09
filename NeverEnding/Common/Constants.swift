@@ -17,7 +17,7 @@ struct Constants {
     public static let spinnerMessage = "Please wait..."
     public static let footerViewReuseIdentifier = "RefreshFooterView"
     public static let imageCellReuseIdentifier = "ImageCell"
-    public static let dateFormat = "HH:mm:ss.SS a"
+    public static let dateFormat = "h:mm:ss.SS a"
     public static let alertTitle = "Invalid Entry!"
     public static let alertMessage = "Please enter a name to continue"
     public static let footerViewXibName = "CustomFooterView"

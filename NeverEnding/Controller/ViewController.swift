@@ -45,6 +45,11 @@ class ViewController: UIViewController {
     
     // Mark: Actions
     @IBAction func didTapSubmitButton(_ sender: Any) {
+        handleStartClick()
+    }
+    
+    func handleStartClick() {
+        hideKeyboard()
         guard checkIfValidInput() else {
             Utility.showAlertMessage(title: Constants.alertTitle, message: Constants.alertMessage, viewController: self)
             return
@@ -66,8 +71,6 @@ class ViewController: UIViewController {
                 self.userInputView.alpha = 0
             }
         })
-        
-        
     }
     
     //Returns true if input is not empty
@@ -314,11 +317,11 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
 
 extension ViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        hideKeypad()
+        hideKeyboard()
         return false
     }
     
-    func hideKeypad() {
+    func hideKeyboard() {
         view.endEditing(true)
     }
 }
